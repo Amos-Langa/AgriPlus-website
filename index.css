@@ -43,8 +43,9 @@
 #exploremore{
     background-color: #ED661F;
     color: white;
-    padding: 10px;
-    padding-right: 900px;
+    height: 80px;
+    width: 200px;
+    font-size: 25px;
 }
 #rates{
     font-size: 10px;
@@ -93,9 +94,10 @@
     font-weight: bold;
 }
 #customer{
-    border-bottom: 4px solid grey;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+
 }
 #readmore{
     text-align: right;
@@ -150,4 +152,21 @@
 }
 #last{
     font-weight: bold;
+}
+.review{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: xx-large;
+}
+.reviewcard{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(189, 186, 186);
+    border-left: 1px solid rgb(185, 182, 182);
+    border-right: 1px solid rgb(182, 179, 179);
+}
+.clientsay{
+    border-top: 30px solid rgb(199, 195, 195);
 }
