@@ -170,3 +170,14 @@
 .clientsay{
     border-top: 30px solid rgb(199, 195, 195);
 }
+#seeall{
+    font-size: 30px;
+    text-align: right;
+    font-weight: bold;
+    margin-left: 1500px;
+    padding: 20px;
+    background-color: white;
+    border: white;
+    text-decoration-color: #ED661F;
+    text-decoration: underline;
+}
