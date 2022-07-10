@@ -36,6 +36,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 #introduction{
     color: black;
