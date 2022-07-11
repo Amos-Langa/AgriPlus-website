@@ -234,3 +234,13 @@ nav>ul>li>a:hover {
     color: blue;
     background-color: #ED661F;
 }
+#readmore>a{
+    color: black;
+    font-family: 'poppins', sans-serif;
+}
+#readmore>a:hover{
+    background-color: #ED661F;
+    color: blue;
+    font-size: 35px;
+
+}
