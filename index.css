@@ -144,24 +144,16 @@
     background-color: black;
     padding-bottom: 50px;
 }
-.footer{
+.foot{
     background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
-    justify-content: space-between;
-}
-.footnotes{
-    display: flex;
-    flex-direction: row;
+    justify-content: space-around;
 }
 .list{
     list-style: none;
-}
-#last{
-    font-weight: bold;
 }
 .review{
     display: flex;
@@ -242,5 +234,37 @@ nav>ul>li>a:hover {
     background-color: #ED661F;
     color: blue;
     font-size: 35px;
-
+}
+#footlinks>li{
+    list-style: none;
+}
+#dairy{
+    color: white;
+}
+.footer{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: bolder;
+}
+.footlink{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#link>ol>li>a{
+    color: white;
+    text-decoration: none;
+}
+#link>ol>li>a:hover{
+    color: #ED661F;
+    font-size: 20px;
+}
+#last{
+    font-weight: bold;
+    font-size: large;
 }
