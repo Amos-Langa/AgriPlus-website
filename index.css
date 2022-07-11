@@ -184,7 +184,7 @@
     font-size: 30px;
     text-align: right;
     font-weight: bold;
-    margin-left: 1500px;
+    margin-left: 1200px;
     padding: 20px;
     background-color: white;
     border: white;
@@ -224,4 +224,13 @@ nav>ul>li>a:hover {
 }
 #exploremore>a:hover{
     color: blue;
+}
+#seeall>a{
+    color: black;
+    font-size: 35px;
+}
+#seeall>a:hover{
+    font-size: 50px;
+    color: blue;
+    background-color: #ED661F;
 }
